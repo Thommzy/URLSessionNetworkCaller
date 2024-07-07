@@ -16,7 +16,7 @@ public class URLSessionNetworkCaller<T: Codable> {
         urlPath: String,
         method: Method,
         type: T.Type,
-        parameter: [String: Any]
+        parameter: [String: Any]?
     ) {
         self.baseURL = baseURL
         self.urlPath = urlPath
