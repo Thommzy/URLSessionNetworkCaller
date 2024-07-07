@@ -25,7 +25,7 @@ public class URLSessionNetworkCaller<T: Codable> {
         self.parameters = parameter
     }
     
-    func makeNetworkRequest() -> AnyPublisher<T, Error>{
+    public func makeNetworkRequest() -> AnyPublisher<T, Error>{
         ApiClient.shared.makeRequest(
             baseURL: baseURL,
             urlPath: urlPath,
