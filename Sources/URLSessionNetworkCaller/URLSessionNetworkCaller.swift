@@ -4,7 +4,7 @@
 import Foundation
 import Combine
 
-public class URLSessionNetworkCaller<T: Codable> {
+open class URLSessionNetworkCaller<T: Codable> {
     private var baseURL: String
     private var urlPath: String
     private var method: Method
