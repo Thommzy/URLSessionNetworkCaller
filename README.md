@@ -122,10 +122,7 @@ final class HomeViewModel: ObservableObject {
     }
     ```
 
-3. **Fetch Data in the View**:
-    ```swift
-    😊 
-    ```
+3. **Fetch Data in your View**
 
 ## API Reference
 
